@@ -27,6 +27,6 @@ const { image } = useImage();
 </template>
 <style scoped>
 .h-card:hover {
-  box-shadow: rgba(225, 224, 226, 0.25) 0px 5px 10px;
+  box-shadow: rgb(255, 255, 255)) 0px 5px 10px;
 }
 </style>

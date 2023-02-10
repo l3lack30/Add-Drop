@@ -5,7 +5,7 @@ const { course } = useCourse();
 const { select, add_subject, remove_subject, restart } = useSelect();
 </script>
 <template>
-  <div class="container mt text-center">
+  <div class="container mt text-center ">
     <div class="row mt-2" style="font-size: 22px; color: white">
       <div class="col text-start">รายวิชาที่เลือกไว้</div>
       <div class="col-2">
@@ -28,16 +28,15 @@ const { select, add_subject, remove_subject, restart } = useSelect();
         <div>ชื่อวิชา</div>
       </div>
       
-      
-      <div class="col-2">
+      <div class="col-2 ">
         <div></div>
       </div>
     </div>
-    <div class="row m-3" v-for="n in select.length">
+    <div class="row m-3" style="color: white" v-for="n in select.length">
       <div class="col" v-if="select && select[n - 1]">
         {{ select[n - 1].code }}
       </div>
-      <div class="col" v-if="select && select[n - 1]">
+      <div class="col" style="color: white" v-if="select && select[n - 1]">
         {{ select[n - 1].nameTh }}<br />
         {{ select[n - 1].nameEg }}
       </div>

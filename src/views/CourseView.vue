@@ -19,14 +19,14 @@ const { course } = useCourse();
       </div>
     </div>
     <div class="row mt-3" v-for="n in course.length">
-      <div class="col" v-if="course && course[n - 1]">
+      <div class="col" style="color: white" v-if="course && course[n - 1]">
         {{ course[n - 1].code }}
       </div>
-      <div class="col" v-if="course && course[n - 1]">
+      <div class="col" style="color: white" v-if="course && course[n - 1]">
         {{ course[n - 1].nameTh }}<br />
         {{ course[n - 1].nameEng }}
       </div>
-      <div class="col" v-if="course && course[n - 1]">
+      <div class="col" style="color: white" v-if="course && course[n - 1]">
         {{ course[n - 1].credit }}
       </div>
       
