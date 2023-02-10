@@ -1,5 +1,3 @@
-s (17 sloc)  364 Bytes
-
 <script setup>
 import slideNews from "../components/slideNews.vue";
 import groupNews from "../components/News.vue";

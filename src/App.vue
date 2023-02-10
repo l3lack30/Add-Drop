@@ -18,7 +18,7 @@ import { RouterLink, RouterView } from "vue-router";
                 <RouterLink to="/course" class="text-light mu">รายวิชา</RouterLink>
               </div>
               <div class="col">
-                <RouterLink to="/AddDrop" class="text-light mu">เพิ่ม - ลดรายวิชา</RouterLink>
+                <RouterLink to="/AddDrop" class="text-light mu">ลงทะเบียน</RouterLink>
               </div>
             </div>
           </nav>
